@@ -1,33 +1,32 @@
 {
 # 【1. 公众号配置：所有信息都在刚注册的公众号中找到】
 # 公众号appId，替换掉下方文字内容，不要删除双引号
-"app_id": "wxd24ec0db0949b1be",
+"app_id": "wx9c4a0032d1f3f8cd",
 
 # 公众号appSecret，替换掉下方文字内容，不要删除双引号
-"app_secret": "f0141040402e118d50df9772f81b2d95",
+"app_secret": "6d2e86f603f243d64693323cb97b45bb",
 
 # 模板消息接口里的模板ID，替换掉下方文字内容，不要删除双引号
-"template_id": "FKwBcOgjJWP5FpMEpYk5nppsPNJ3b-XLa94odIgPLQo",
+"template_id": "GwaKbt-1wZ-IaisHbMHz6-ryGNjfSRH-TCTAskc3KM8",
 
 # 接收公众号消息的微信号（user-id），如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-"user": ["oGF8X6Infe_TbiR5S2zss9deW2Cw"],
+"user": ["oYmGw6Ylt-mXnCfW9YjiNf6Mj6Ok", "oYmGw6WIEMuMYCMesXcoelQ23uhE"],
 
 # 【2. 信息配置】
 # 所在省份
-"province": "浙江",
+"province": "江苏",
 
 # 所在城市
-"city": "杭州",
+"city": "南京",
 
 # 生日1，如果生日为农历，在最前面加上r即可，如r1999-01-01
-"birthday1": "r2001-09-08",
+"birthday1": "r1995-10-03",
 # 生日2
-"birthday2": "r1998-11-10",
-# 生日3
-"birthday3": "1997-01-03",
+"birthday2": "r1998-10-14",
+
 
 # 在一起的日子，格式同上
-"love_date": "2022-02-09",
+"love_date": "2019-04-03",
 
 
 #######################################
@@ -35,7 +34,7 @@
 #######################################
 #如果要启用，请把下面的 否 改为 是 ，注意要保留双引号
 #如果不用这个接口，请不要改动里面的内容
-"Whether_Eng":"否",
+"Whether_Eng":"是",
 ###注意要在消息模板中加入{{note_ch.DATA}}和{{note_en.DATA}}，才能够正常显示
 
 
@@ -79,7 +78,7 @@
 #请把你申请的健康小提示API接口替换掉下方的文字"替换掉我"，注意要保留双引号
 #如果不用这个接口，请不要改动里面的内容
 
-"health_API":"替换掉我",
+"health_API":"https://www.tianapi.com/apiview/78",
 
 ###注意要在消息模板中加入{{health.DATA}}，才能够正常显示
 
@@ -89,9 +88,9 @@
 #请把你申请的星座运势API接口替换掉下方的文字"替换掉我"，注意要保留双引号
 #如果不用这个接口，请不要改动里面的内容
 
-"lucky_API":"替换掉我",
+"lucky_API":"a576022d0a9ed223ffacb2587d9b0bc3",
 #请在下方填入你的星座，中文即可，如"天蝎座"
-"astro":"天蝎座"
+"astro":"射手座"
 ###注意要在消息模板中加入{{lucky.DATA}}，才能够正常显示
 }
 
